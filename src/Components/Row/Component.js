@@ -25,9 +25,8 @@ export default function Component({ title, fetchUrl, isLargeRow}) {
       autoplay: 1
     }
   }
-
+  
   const handleClickTrailer = (movie) => {
-    console.log(movie);
     if (trailerUrl) {
       setTrailerUrl('')
     } else {
