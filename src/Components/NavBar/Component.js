@@ -15,7 +15,6 @@ export default function Component() {
       window.removeEventListener("scroll");
     };
   }, []);
-console.log(show);
   return (
     <div className={`nav ${show && 'nav__black'}`}>
       <img
